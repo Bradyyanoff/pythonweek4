@@ -18,6 +18,10 @@ arcade.start_render()
 #arcade.draw_triangle_filled(300, 600, 600, 600, 450, 350, arcade.color.BLUE_SAPPHIRE)
 #arcade.draw_triangle_outline(600, 600, 490, 300, 700, 700, arcade.color.CADET_GREY, 15)
 
+#arcade.draw_arc_filled(800, 500, 100, 100, arcade.color.DEEP_PUCE, 30, 350)
+#arcade.draw_arc_outline(980, 500, 200, 100, arcade.color.EUCALYPTUS, -180, 0, 10)
+#arcade.draw_arc_outline(980, 500, 200, 100, arcade.color.EUCALYPTUS, 0, 180, 10)
+
 
 
 arcade.finish_render()
