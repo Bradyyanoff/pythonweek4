@@ -22,7 +22,7 @@ arcade.start_render()
 #arcade.draw_arc_outline(980, 500, 200, 100, arcade.color.EUCALYPTUS, -180, 0, 10)
 #arcade.draw_arc_outline(980, 500, 200, 100, arcade.color.EUCALYPTUS, 0, 180, 10)
 
-
+#arcade.draw_parabola_filled(800, 0, 1000, 300, arcade.color.AO)
 
 arcade.finish_render()
 
