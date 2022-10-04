@@ -1,0 +1,13 @@
+import arcade
+arcade.open_window(800, 800, "smile")
+arcade.set_background_color(arcade.color.BLUE)
+arcade.start_render()
+arcade.draw_circle_filled(400, 400, 200, arcade.color.ORANGE)
+arcade.draw_xywh_rectangle_filled(200, 580, 400, 50, arcade.color.BLACK)
+arcade.draw_xywh_rectangle_filled(350, 630, 100, 150, arcade.color.BLACK)
+arcade.draw_arc_filled(325, 400, 50, 100, arcade.color.YELLOW, 0, 180)
+arcade.draw_arc_filled(475, 400, 50, 100, arcade.color.YELLOW, 0, 180)
+#arcade.draw_triangle_filled()
+#arcade.draw_arc_outline()
+arcade.finish_render()
+arcade.run()
